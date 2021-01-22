@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "npx nodemon --exec ts-node --files src/index.ts",
     "typeorm": "npx ts-node ./node_modules/typeorm/cli.js",
-    "start": "node src/index.js"
+    "start": "ts-node --files src/index.ts"
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.2",

@@ -4,7 +4,10 @@
     "port": 5432,
     "username": "zgmmhpxtsuyyuk",
     "password": "ee1656e311d45e93654eb3510d3b5f0983c037b86968d79337e1cf3b5888f6b0",
-    "database": "dbfu80ot92ib0u",
+    "database": "dbfu80ot92ib0u",   
+    "extra": {
+        "ssl": true
+    },
     "entities": [
         "src/app/models/*.ts"
     ],
