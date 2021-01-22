@@ -1,10 +1,10 @@
 {
     "type": "postgres",
-    "host": "localhost",
+    "host": "ec2-18-205-122-145.compute-1.amazonaws.com",
     "port": 5432,
-    "username": "docker",
-    "password": "docker",
-    "database": "marvel",
+    "username": "zgmmhpxtsuyyuk",
+    "password": "ee1656e311d45e93654eb3510d3b5f0983c037b86968d79337e1cf3b5888f6b0",
+    "database": "dbfu80ot92ib0u",
     "entities": [
         "src/app/models/*.ts"
     ],
